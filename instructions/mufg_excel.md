@@ -212,6 +212,28 @@ Explain the formula in the new status column step by step, and tell me what woul
 
 **Say:** Never share a number you can't explain.
 
+**16. Hand the whole analysis to the Analyst agent**
+
+Open the **Microsoft 365 Copilot app → Agents → Analyst** and attach both workbooks:
+
+```text
+You are supporting the Head of Corporate Banking. Using the attached workbooks, prepare an executive analysis:
+1) Q3 2026 portfolio performance highlights;
+2) sector concentration risks and trends, including a forecast of the Industrials share;
+3) the impact of a €200m, €250m and €300m Fabrikam hold on concentration, single-name limits and returns;
+4) a recommendation with conditions.
+Separate facts from assumptions, show the calculations you used, and list any data limitations.
+```
+
+Follow-up:
+
+```text
+Which assumption would most change your recommendation, and how?
+```
+
+What to look for: whether the expected pipeline deals close; whether MUFG wins the hedging business; a 20% fall in Fabrikam's earnings would break its 3.25x leverage covenant.
+
+
 ## Five-minute challenge
 
 Haruka: "I have five minutes before the credit review. What do I need to know?"
